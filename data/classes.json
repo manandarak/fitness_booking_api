@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Yoga Basics",
+    "datetime": "2025-07-20T10:00:00",
+    "timezone": "Asia/Kolkata",
+    "available_slots": 4
+  },
+  {
+    "id": 2,
+    "name": "Zumba Blast",
+    "datetime": "2025-07-21T18:00:00",
+    "timezone": "Asia/Kolkata",
+    "available_slots": 8
+  }
+]
