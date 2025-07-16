@@ -1,17 +1,18 @@
-📚 Class Booking API
+# 📚 Class Booking API
+
 This is a simple Flask-based web API that lets users:
 
-View available classes (GET /classes)
+- View available classes (`GET /classes`)
+- Book a class (`POST /book`)
+- View their bookings (`GET /bookings`)
 
-Book a class (POST /book)
+---
 
-View their bookings (GET /bookings)
+## 🚀 How to Run This App
 
-🚀 How to Run This App
-1. Clone or Download the Project
-bash
-Copy
-Edit
+### 1. Clone or Download the Project
+
+```bash
 git clone https://your-repo-url.git
 cd your-project-folder
 2. Install Required Packages
@@ -23,7 +24,7 @@ bash
 Copy
 Edit
 pip install flask
-If your project uses other packages (e.g. pytz, etc.), you can install them using:
+If your project uses other packages (e.g. pytz, etc.), install them using:
 
 bash
 Copy
@@ -39,13 +40,17 @@ pytz
 3. Check Required Files
 Make sure you have these Python files in the same folder:
 
-app.py – the main Flask app (your script)
+app.py – the main Flask app
 
-models.py – contains load_classes, load_bookings, save_classes, save_bookings functions
+models.py – contains load_classes, load_bookings, save_classes, save_bookings
 
-utils.py – contains convert_to_timezone and validate_booking functions
+utils.py – contains convert_to_timezone and validate_booking
 
-data/ folder or JSON files (like classes and bookings data)
+data/ folder or JSON files like:
+
+classes.json
+
+bookings.json
 
 4. Start the Server
 Run the Flask app using:
